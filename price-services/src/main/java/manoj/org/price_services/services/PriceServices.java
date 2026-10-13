@@ -32,7 +32,7 @@ public class PriceServices {
 
     public ProductDetails getPriceByProductId(int productID) {
         ProductDTO product = this.restClient.get()
-                .uri("http://localhost:8080/products/getById/" + productID)
+                .uri("http://product-service:8080/products/getById/" + productID)
                 .retrieve()
                 .toEntity(ProductDTO.class)
                 .getBody();
