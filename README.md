@@ -1,3 +1,1 @@
 # SpringBootMicro
-
-springBootMicro.code-workspace
